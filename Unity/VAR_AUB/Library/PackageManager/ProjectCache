@@ -5,21 +5,79 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637520072290018482
-    m_Hash: 2468046279
+      ticks: 637520497603016762
+    m_Hash: 1004846785
   m_LockFileStatus:
     m_FilePath: C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637520072296720718
-    m_Hash: 20758231
+      ticks: 637520497881389655
+    m_Hash: 1591990178
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.scripting.python@2.1.1-preview.1
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.1-preview.1
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.scripting.python@2.1.1-preview.1
+      assetPath: Packages/com.unity.scripting.python
+      name: com.unity.scripting.python
+      displayName: Python for Unity
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: An integration of Python for .NET delivered to your project through
+        the Package Manager, Python for Unity provides your Unity project the means
+        to import the Python Runtime Environment as a namespace and execute Python
+        scripts from both inside the Unity editor and built applications.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0-preview.6
+        - 2.0.1-preview.2
+        - 2.1.0-preview.1
+        - 2.1.1-preview.1
+        compatible:
+        - 2.0.0-preview.6
+        - 2.0.1-preview.2
+        - 2.1.0-preview.1
+        - 2.1.1-preview.1
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - python
+      - python.net
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637332734440000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.scripting.python.git
+        revision: 5904a73e0064ab5a51a30e9598f3ace8bf691ad8
+        path: 
     - packageId: com.google.xr.cardboard@https://github.com/googlevr/cardboard-xr-plugin.git
       testable: 0
       isDirectDependency: 1
