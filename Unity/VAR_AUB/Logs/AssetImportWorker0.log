@@ -1,0 +1,481 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'es' Physical Memory: 15789 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63934
+Successfully changed project path to: C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB
+C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.98 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 with Max-Q Design (ID=0x1f12)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001988 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.94 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.795 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1785.
+Total: 2.853600 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.404200 ms  DeleteObjects: 0.096700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab
+  artifactKey: Guid(5ca80f4596fa44b87912a0592346d260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab using Guid(5ca80f4596fa44b87912a0592346d260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8f59c8e0bac614b9e2286d11f63ab8') in 0.039838 seconds
+  Import took 0.042570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/GoogleVR/Prefabs/InstantPreview/GvrInstantPreviewMain.prefab
+  artifactKey: Guid(ce7abbbeb276a1547bd8ce1069fdabb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/InstantPreview/GvrInstantPreviewMain.prefab using Guid(ce7abbbeb276a1547bd8ce1069fdabb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5c8c1f572c09d6b64a46baebce4556') in 0.008798 seconds
+  Import took 0.010662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardManager.prefab
+  artifactKey: Guid(6c99596fcbe574b168ae0faa3afe8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardManager.prefab using Guid(6c99596fcbe574b168ae0faa3afe8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364f0122d7a9b3b28703bd0f66d97df3') in 0.007919 seconds
+  Import took 0.009887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/GoogleVR/Beta/Prefabs/GvrBetaControllerPointer.prefab
+  artifactKey: Guid(048f0870e3e4143d9a65ef712d616c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Beta/Prefabs/GvrBetaControllerPointer.prefab using Guid(048f0870e3e4143d9a65ef712d616c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b68645f0223afedd5a6ce52500cd16d') in 0.141601 seconds
+  Import took 0.143992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab
+  artifactKey: Guid(f4cf01cab04054926935acc7cb25b7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab using Guid(f4cf01cab04054926935acc7cb25b7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f82c1962cdff98b021f3c652ab8b06') in 0.021752 seconds
+  Import took 0.023614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab
+  artifactKey: Guid(463285ecd6702471a909ba810832bf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab using Guid(463285ecd6702471a909ba810832bf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bf619b0612357607786aab16cb505e') in 0.009675 seconds
+  Import took 0.011772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/GoogleVR/Prefabs/GvrEditorEmulator.prefab
+  artifactKey: Guid(970dd4b9371394fb4890965f608d46fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/GvrEditorEmulator.prefab using Guid(970dd4b9371394fb4890965f608d46fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754adb9fc02b5517bf70af04514107d7') in 0.008774 seconds
+  Import took 0.010597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/GoogleVR/Prefabs/Headset/GvrHeadset.prefab
+  artifactKey: Guid(d638298e697ca4e9b91853efadd0e6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/Headset/GvrHeadset.prefab using Guid(d638298e697ca4e9b91853efadd0e6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dd6814b7d07de1d343670b30088a32') in 0.008910 seconds
+  Import took 0.010753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/GoogleVR/Prefabs/Controller/GvrControllerPointer.prefab
+  artifactKey: Guid(34c21f523e72f45509a4e37ed0293c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/Controller/GvrControllerPointer.prefab using Guid(34c21f523e72f45509a4e37ed0293c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f1c162f4d9c103a2bc7f80ace7532e') in 0.074899 seconds
+  Import took 0.076883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/GoogleVR/Beta/Prefabs/GvrBetaHeadset.prefab
+  artifactKey: Guid(ae573f8e3d9b8454ab957f3555e61af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Beta/Prefabs/GvrBetaHeadset.prefab using Guid(ae573f8e3d9b8454ab957f3555e61af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40c1cde490cf04e619bf915759aad39') in 0.008375 seconds
+  Import took 0.010911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsTemplate.prefab
+  artifactKey: Guid(f86870dc8a5b2476bb66abe6e43dfb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsTemplate.prefab using Guid(f86870dc8a5b2476bb66abe6e43dfb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44f5bf5e43837bae4d35cdd24a55162') in 0.013137 seconds
+  Import took 0.015612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab
+  artifactKey: Guid(6e5b693d0947f4a8b85a00d3965ba64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab using Guid(6e5b693d0947f4a8b85a00d3965ba64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fb7cbd7feae69e23bd5d3e4f2e4446') in 0.043373 seconds
+  Import took 0.045525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 685.249016 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(f690313685160c4408fe8fcb9cd8d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(f690313685160c4408fe8fcb9cd8d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51105fc1e7f4a79379d41c0460469cd9') in 0.015804 seconds
+  Import took 0.018063 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(65536) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 128 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 2.108600 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.657100 ms  DeleteObjects: 0.087200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(65536) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.1 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 1.864600 ms (FindLiveObjects: 0.412700 ms CreateObjectMapping: 0.051500 ms MarkObjects: 1.329400 ms  DeleteObjects: 0.068800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(65536) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.732900 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.350200 ms  DeleteObjects: 0.051300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 88.525262 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(a9d1095813ce9064d90a6b871fe20b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(a9d1095813ce9064d90a6b871fe20b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424482bccc173f568a377d34062ef154') in 0.008575 seconds
+  Import took 0.010526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.706370 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(565fdfab3180cd248839f74d67c9462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(565fdfab3180cd248839f74d67c9462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea77627fe21debcbfaf3a950b0d7bdc') in 0.006301 seconds
+  Import took 0.008365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161591 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49483526944939e4e32583431040ec77') in 0.012354 seconds
+  Import took 0.015131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.641573 seconds.
+  path: Assets/XR
+  artifactKey: Guid(1c214bd778d42bc4d85c576ba99da390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(1c214bd778d42bc4d85c576ba99da390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca6188f3a0c84cabe7520ea8da84027') in 0.006724 seconds
+  Import took 0.008727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.059709 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(8187f40cadbd41347a9206cbfe47308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(8187f40cadbd41347a9206cbfe47308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6450197a6a4632fce02ab89b78ec28c5') in 0.006466 seconds
+  Import took 0.008542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038680 seconds.
+  path: Assets/XR/Loaders/XR Loader.asset
+  artifactKey: Guid(64b13b7b3c160d54fbcfcd302f1200d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/XR Loader.asset using Guid(64b13b7b3c160d54fbcfcd302f1200d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a62c6ea61a78acc4c518d21cd8ef700') in 0.008211 seconds
+  Import took 0.010195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.755715 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(93a4e1d1ffa2a8c4099e5492226b0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(93a4e1d1ffa2a8c4099e5492226b0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694aad4054810513ab4e38bd420df02c') in 0.008447 seconds
+  Import took 0.010394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072847 seconds.
+  path: Assets/XR/Settings/XR Settings.asset
+  artifactKey: Guid(ea1591935fc6a82498d1abec369e6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/XR Settings.asset using Guid(ea1591935fc6a82498d1abec369e6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471cee081d8686144d69a5fe1cef5f98') in 0.007471 seconds
+  Import took 0.009897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.048545 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(e33fa605e505b9c4c89f193e741686da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(e33fa605e505b9c4c89f193e741686da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11043d6cb2e11ce940fd355398b718c') in 0.007170 seconds
+  Import took 0.009383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.558021 seconds.
+  path: Packages/com.google.xr.cardboard/package.json
+  artifactKey: Guid(8733a4ec878ee4c25bf4a7f50e019d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/package.json using Guid(8733a4ec878ee4c25bf4a7f50e019d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb328aa85996139c9a8fb2e2d244142a') in 0.008260 seconds
+  Import took 0.010216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.617256 seconds.
+  path: Packages/com.google.xr.cardboard/Editor
+  artifactKey: Guid(f1e076de859fa49d7bf78a294d512bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Editor using Guid(f1e076de859fa49d7bf78a294d512bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf28961cdcf46ee2bb17b36fe7dbf338') in 0.007469 seconds
+  Import took 0.009527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032662 seconds.
+  path: Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef
+  artifactKey: Guid(ad91be1e774094f99afb64ef26c07397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef using Guid(ad91be1e774094f99afb64ef26c07397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70cefae2c1428515b643593b2ee7e7b') in 0.008973 seconds
+  Import took 0.010846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.550782 seconds.
+  path: Packages/com.google.xr.cardboard/Resources
+  artifactKey: Guid(9421d2ce3deaf45f390a84d593e75311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Resources using Guid(9421d2ce3deaf45f390a84d593e75311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a660b4f65f0bb7787371f7cbf3e76036') in 0.007395 seconds
+  Import took 0.009199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.237183 seconds.
+  path: Packages/com.google.xr.cardboard/Resources/Cardboard
+  artifactKey: Guid(3d6b5ad3915104da58aa307b011077af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Resources/Cardboard using Guid(3d6b5ad3915104da58aa307b011077af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edef8f5c673bcfdfbee3a42e5137f409') in 0.006670 seconds
+  Import took 0.008760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044645 seconds.
+  path: Packages/com.google.xr.cardboard/Resources/Cardboard/quantum_ic_close_white_24.png
+  artifactKey: Guid(07fee181ffab14930827f990c51f206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Resources/Cardboard/quantum_ic_close_white_24.png using Guid(07fee181ffab14930827f990c51f206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d6d2e7a76ca48d8c28859996cc45c6') in 0.037868 seconds
+  Import took 0.039801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.google.xr.cardboard/Resources/Cardboard/quantum_ic_settings_white_24.png
+  artifactKey: Guid(1ba35afc9ee124883bc3277e249dec2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Resources/Cardboard/quantum_ic_settings_white_24.png using Guid(1ba35afc9ee124883bc3277e249dec2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f315cf71443c1846bcbb230a8aed9f') in 0.014674 seconds
+  Import took 0.016876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001208 seconds.
+  path: Packages/com.google.xr.cardboard/Resources/Cardboard/quantum_ic_settings_white_24.png
+  artifactKey: Guid(1ba35afc9ee124883bc3277e249dec2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Resources/Cardboard/quantum_ic_settings_white_24.png using Guid(1ba35afc9ee124883bc3277e249dec2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f315cf71443c1846bcbb230a8aed9f') in 0.007333 seconds
+  Import took 0.009269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.440189 seconds.
+  path: Packages/com.google.xr.cardboard
+  artifactKey: Guid(2a0ae01876436142841cfc3bb2df0513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard using Guid(2a0ae01876436142841cfc3bb2df0513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fbb0aed8b3e22e4ac53b7ed73cc0de') in 0.007773 seconds
+  Import took 0.009710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.036193 seconds.
+  path: Packages/com.unity.xr.management/package.json
+  artifactKey: Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/package.json using Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0978d2756d4010160d0202a1dd1526') in 0.007762 seconds
+  Import took 0.009704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.921312 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/package.json
+  artifactKey: Guid(d16ab7e2b2998ad4c9729d86bb9aa666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/package.json using Guid(d16ab7e2b2998ad4c9729d86bb9aa666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c378b123220ec3d9bedb2525c17cd14c') in 0.003780 seconds
+  Import took 0.005930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.814341 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8092f75e54fa1cebf575669c6c4d7485') in 0.009248 seconds
+  Import took 0.011705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.950211 seconds.
+  path: Packages/com.google.xr.cardboard/Editor/CardboardMetadata.cs
+  artifactKey: Guid(162c26fa7c30d4896a82948df5b9de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Editor/CardboardMetadata.cs using Guid(162c26fa7c30d4896a82948df5b9de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bcf23d9e816797fe6692ef075b5bb3') in 0.010078 seconds
+  Import took 0.012032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.275535 seconds.
+  path: Packages/com.google.xr.cardboard/Editor/BuildPostProcessor.cs
+  artifactKey: Guid(91fd4af74c46d40d1ba9ef77bf5ec35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Editor/BuildPostProcessor.cs using Guid(91fd4af74c46d40d1ba9ef77bf5ec35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3753a3317eb47e54987a4a621a857c11') in 0.007699 seconds
+  Import took 0.009969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.658155 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime
+  artifactKey: Guid(7b3736418a3da458ebb6d7f4bb77ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime using Guid(7b3736418a3da458ebb6d7f4bb77ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe18d4127f53a4d86eca2de7d8937cc') in 0.008072 seconds
+  Import took 0.009943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025741 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef
+  artifactKey: Guid(2f52f0b6cfdc94464bcc067a11c8e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef using Guid(2f52f0b6cfdc94464bcc067a11c8e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288e91d97f4141728a3f0add64e9924f') in 0.008094 seconds
+  Import took 0.010299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012964 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Android
+  artifactKey: Guid(b87a7e5c753cb443fb61bc39f76430ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Android using Guid(b87a7e5c753cb443fb61bc39f76430ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92345cd8db237cb94a50aedbf988c97f') in 0.003328 seconds
+  Import took 0.005162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055251 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Android/sdk.aar
+  artifactKey: Guid(efc03dbe8dbcc4d75a8343c5c6676eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Android/sdk.aar using Guid(efc03dbe8dbcc4d75a8343c5c6676eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c48ddda3681f3c92635494dfea1747a') in 0.009092 seconds
+  Import took 0.010942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.484904 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Android/generate_sdk_aar.md
+  artifactKey: Guid(6e366518851b84e339edfe873323348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Android/generate_sdk_aar.md using Guid(6e366518851b84e339edfe873323348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248583cac0c5b5e3c8157d7d773588af') in 0.008383 seconds
+  Import took 0.010287 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
