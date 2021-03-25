@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GBPEg7uvz23RDXkPC3QYtWPn0LADk1pdfYoIl98nyDrPnr/oOt4xeREZeXjmLlwnDvYeRYk3ceA/waMRrdzKmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicom\\Documents\\VAR-AUB\\Unity\\Thingspeak data script\\Thingspeak_data_retrieval\\Thingspeak_data_retrieval.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicom\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
