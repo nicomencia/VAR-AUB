@@ -65,12 +65,14 @@ void loop() {
     } 
     Serial.println("\nConnected.");
   }
-
+  // Get data from sensors
   int soil_moisture = analogRead(A0);
+  Serial.println(soil_moisture);
+  int moisture = map(soil_moisture, 675, 1023, 100, 0);
   
   // Write to ThingSpeak. There are up to 8 fields in a channel, allowing you to store up to 8 different
   // pieces of information in a channel.  Here, we write to field 1.
-  int x = ThingSpeak.writeField(myChannelNumber, 1, soil_moisture, myWriteAPIKey);
+  int x = ThingSpeak.writeField(myChannelNumber, 1, moisture, myWriteAPIKey);
   if(x == 200){
     Serial.println("Channel update successful.");
   }
