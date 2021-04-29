@@ -34,6 +34,9 @@ WiFiClient  client;
 unsigned long myChannelNumber = SECRET_CH_ID;
 const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
 
+int lightPin = A1;
+int temperaturePin = A2;
+
 void setup() {
   Serial.begin(115200);  // Initialize serial
   
@@ -66,13 +69,29 @@ void loop() {
     Serial.println("\nConnected.");
   }
   // Get data from sensors
+
+  // Soil moisture
   int soil_moisture = analogRead(A0);
   Serial.println(soil_moisture);
   int moisture = map(soil_moisture, 675, 1023, 100, 0);
+
+  // Light
+  int light_reading = analogRead(lightPin);
+  Serial.println(light_reading);
+  int light = map(light_reading, 1023, 50, 100, 0);
+
+  // Temperature
+  int temperature_reading = analogRead(temperaturePin);
+  Serial.println(temperature_reading);
+  int milivolts = temperature_reading * (5000/1024);
+  int temperature = (milivolts - 500) / 10;
+  Serial.println(temperature);
   
   // Write to ThingSpeak. There are up to 8 fields in a channel, allowing you to store up to 8 different
   // pieces of information in a channel.  Here, we write to field 1.
-  int x = ThingSpeak.writeField(myChannelNumber, 1, moisture, myWriteAPIKey);
+  ThingSpeak.setField(1, moisture);
+  ThingSpeak.setField(2, light);
+  int x = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
   if(x == 200){
     Serial.println("Channel update successful.");
   }
