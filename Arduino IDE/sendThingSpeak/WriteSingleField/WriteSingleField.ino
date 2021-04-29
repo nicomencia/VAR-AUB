@@ -27,6 +27,9 @@
 #include "secrets.h"
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
 
+#define DIGITAL_PIN_RAIN 6
+#define ANALOG_PIN_RAIN A2
+
 char ssid[] = SECRET_SSID;    //  your network SSID (name) 
 char pass[] = SECRET_PASS;   // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
@@ -39,8 +42,15 @@ int lightPin = A1;
 int temperaturePin = A2;
 OneWire onewire(2);
 
+uint16_t rainVal;
+boolean isRaining = false;
+String raining;
+int highRaining;
+
 void setup() {
   Serial.begin(115200);  // Initialize serial
+
+  pinMode(DIGITAL_PIN_RAIN, INPUT);
   
   // check for the WiFi module:
   if (WiFi.status() == WL_NO_MODULE) {
@@ -115,13 +125,13 @@ void loop() {
 
   // Soil moisture
   int soil_moisture = analogRead(A0);
-  Serial.println(soil_moisture);
   int moisture = map(soil_moisture, 675, 1023, 100, 0);
+  Serial.println(moisture);
 
   // Light
   int light_reading = analogRead(lightPin);
-  Serial.println(light_reading);
   int light = map(light_reading, 1023, 50, 100, 0);
+  Serial.println(light);
 
   // Temperature
   float temperature;
@@ -134,12 +144,32 @@ void loop() {
   {
     Serial.println(F("Fallo de comunicacion con DS18B20"));
   }
+
+  //Rain sensor
+  rainVal = analogRead(ANALOG_PIN_RAIN);
+  isRaining = digitalRead(DIGITAL_PIN_RAIN);
+  if (isRaining) {
+    raining = "No";
+    highRaining = 0;
+  }
+  else {
+    raining = "Yes";
+    highRaining = 1;
+  }
+  rainVal = map(rainVal, 0, 1023, 100, 0);
+  Serial.print("Raining: ");
+  Serial.println(raining);
+  Serial.print("Moisture: ");
+  Serial.print(rainVal);
+  Serial.println("%\n");
   
   // Write to ThingSpeak. There are up to 8 fields in a channel, allowing you to store up to 8 different
   // pieces of information in a channel.  Here, we write to field 1.
   ThingSpeak.setField(1, moisture);
   ThingSpeak.setField(2, light);
   ThingSpeak.setField(3, temperature);
+  ThingSpeak.setField(4, rainVal);
+  ThingSpeak.setField(5, highRaining);
   int x = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
   if(x == 200){
     Serial.println("Channel update successful.");

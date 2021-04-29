@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637520497603016762
-    m_Hash: 1004846785
+      ticks: 637551633079319315
+    m_Hash: 278268825
   m_LockFileStatus:
     m_FilePath: C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637520497881389655
+      ticks: 637553094068344249
     m_Hash: 1591990178
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -47,11 +47,13 @@ m_PackageAssets:
         - 2.0.1-preview.2
         - 2.1.0-preview.1
         - 2.1.1-preview.1
+        - 4.0.0-exp.5
         compatible:
         - 2.0.0-preview.6
         - 2.0.1-preview.2
         - 2.1.0-preview.1
         - 2.1.1-preview.1
+        - 4.0.0-exp.5
         verified: 
       dependencies: []
       resolvedDependencies: []
