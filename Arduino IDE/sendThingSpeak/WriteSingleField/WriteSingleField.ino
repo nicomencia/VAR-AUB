@@ -21,7 +21,8 @@
   
   Copyright 2020, The MathWorks, Inc.
 */
-
+#include <Arduino.h>
+#include <OneWire.h>
 #include <WiFiNINA.h>
 #include "secrets.h"
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
@@ -36,6 +37,7 @@ const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
 
 int lightPin = A1;
 int temperaturePin = A2;
+OneWire onewire(2);
 
 void setup() {
   Serial.begin(115200);  // Initialize serial
@@ -53,6 +55,47 @@ void setup() {
   }
     
   ThingSpeak.begin(client);  //Initialize ThingSpeak
+}
+
+bool sensor_read(float *result)
+{
+  uint8_t data[12];
+  int i;
+
+  // retornar una lectura invalida si falla la comunicacion con el sensor
+  *result = -100.0;
+
+  // enviar comando de iniciar la conversion de temperatura
+  // primero generamos pulso de reset
+  onewire.reset();
+  // enviar el comando skip ROM que selecciona todos los dispositivos en el bus
+  onewire.skip();
+  // enviar el comando de comienzo de conversion A/D
+  onewire.write(0x44);
+
+  // esperar el termino de conversion AD en el sensor
+  delay(1000);
+
+  // prestamos atención al pulso de presencia al generar el pulso de reset
+  if (!onewire.reset())
+    return false;
+  // enviar el comando skip ROM que selecciona todos los dispositivos en el bus
+  onewire.skip();
+  // enviar comando de lectura de scratchpad
+  onewire.write(0xBE);
+
+  // comenzar lectura de datos
+  for (i = 0; i < 9; i++)
+    data[i] = onewire.read();
+
+  // alinear los datos recibidos
+  int16_t temp = (((int16_t)data[1]) << 11) | (((int16_t)data[0]) << 3);
+
+  // convertir a grados centigrados
+  *result = (float)temp * 0.0078125;
+
+  // lectura satisfactoria
+  return true;
 }
 
 void loop() {
@@ -81,16 +124,22 @@ void loop() {
   int light = map(light_reading, 1023, 50, 100, 0);
 
   // Temperature
-  int temperature_reading = analogRead(temperaturePin);
-  Serial.println(temperature_reading);
-  int milivolts = temperature_reading * (5000/1024);
-  int temperature = (milivolts - 500) / 10;
-  Serial.println(temperature);
+  float temperature;
+  if (sensor_read(&temperature))
+  {
+    Serial.print(F("OK, Temperatura: "));
+    Serial.println(temperature);
+  }
+  else
+  {
+    Serial.println(F("Fallo de comunicacion con DS18B20"));
+  }
   
   // Write to ThingSpeak. There are up to 8 fields in a channel, allowing you to store up to 8 different
   // pieces of information in a channel.  Here, we write to field 1.
   ThingSpeak.setField(1, moisture);
   ThingSpeak.setField(2, light);
+  ThingSpeak.setField(3, temperature);
   int x = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
   if(x == 200){
     Serial.println("Channel update successful.");
