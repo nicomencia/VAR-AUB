@@ -12233,6 +12233,18 @@ IL2CPP_EXTERN_C  String_t* Single_ToString_m7631D332703B4197EAA7DC0BA067CE7E1633
 	_returnValue = Single_ToString_m7631D332703B4197EAA7DC0BA067CE7E16334D8B(_thisAdjusted, ___format0, ___provider1, method);
 	return _returnValue;
 }
+// System.Single System.Single::Parse(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Single_Parse_mA1B20E6E0AAD67F60707D81E82667D2D4B274D6F (String_t* ___s0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___s0;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_1;
+		L_1 = NumberFormatInfo_get_CurrentInfo_m604B9BFDE58530F94955E0EF1A523D37EA87DF02(/*hidden argument*/NULL);
+		float L_2;
+		L_2 = Single_Parse_mC2D99DBBEF2C3FBEC9B44609EB5A8EB668725321(L_0, ((int32_t)231), L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
 // System.Single System.Single::Parse(System.String,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Single_Parse_m2CEE3E81A3D2E04934160117DFA3729B8158F101 (String_t* ___s0, RuntimeObject* ___provider1, const RuntimeMethod* method)
 {

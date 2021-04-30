@@ -17768,12 +17768,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecurityException__ctor_mF3A29891DC5A8A2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t WindowsConsoleDriver_GetStdHandle_m1E1A004CEA89688FE89842DAAE8A7D4B8A4BCC91 (int32_t ___handle0, const RuntimeMethod* method);
 // System.Boolean System.WindowsConsoleDriver::GetConsoleScreenBufferInfo(System.IntPtr,System.ConsoleScreenBufferInfo&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsConsoleDriver_GetConsoleScreenBufferInfo_mCAA09231F816469D859B6AD96EA6EFA714E12847 (intptr_t ___handle0, ConsoleScreenBufferInfo_t0884F260F47C08B473A0E54E153E74C6DC540949 * ___info1, const RuntimeMethod* method);
-// System.Void System.Text.StringBuilder::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m5A81DE19E748F748E19FF13FB6FFD2547F9212D9 (StringBuilder_t * __this, const RuntimeMethod* method);
-// System.ConsoleKeyInfo System.WindowsConsoleDriver::ReadKey(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88  WindowsConsoleDriver_ReadKey_mA57EE05799776F8195C1A3179C3445F39BD3FE72 (WindowsConsoleDriver_t9BCFD85631535991EF359B3E2AECDBA36ED4F7C2 * __this, bool ___intercept0, const RuntimeMethod* method);
-// System.Char System.ConsoleKeyInfo::get_KeyChar()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppChar ConsoleKeyInfo_get_KeyChar_m85F4AA380907696C19C1BFFB73FA5DCA0975A82D_inline (ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88 * __this, const RuntimeMethod* method);
 // System.Boolean System.WindowsConsoleDriver::ReadConsoleInput(System.IntPtr,System.InputRecord&,System.Int32,System.Int32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsConsoleDriver_ReadConsoleInput_m829D98116D178BC11468837011681E5924B57FDF (intptr_t ___handle0, InputRecord_t041607D11686DA35B10AE9E9F71E2448ACDCB1A8 * ___record1, int32_t ___length2, int32_t* ___nread3, const RuntimeMethod* method);
 // System.Int32 System.Runtime.InteropServices.Marshal::GetLastWin32Error()
@@ -17894,6 +17888,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteObjectInfo_InternalInit_mE0664095D8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteObjectInfo__ctor_mBB525549934C25B20D90086FB69DDF49B18CE48B (WriteObjectInfo_t73F5AD7990B2851B876C36F11D16BB12E322D22C * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.Serialization.Formatters.Binary.SerStack::Push(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerStack_Push_m9D578A969CAD881D721B85426A4B986955677C9F (SerStack_tF095DBA17E9C56FB512013B83F330194A4BB8AAC * __this, RuntimeObject * ___obj0, const RuntimeMethod* method);
+// System.Void System.Text.StringBuilder::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m5A81DE19E748F748E19FF13FB6FFD2547F9212D9 (StringBuilder_t * __this, const RuntimeMethod* method);
 // Mono.Security.ASN1 Mono.Security.ASN1::get_Item(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ASN1_t517C1E52F12F8CBFE4C802915DC4F1DB70F83633 * ASN1_get_Item_m5B2099CA770BD39FDA187FD8F7D01BB7D1055551 (ASN1_t517C1E52F12F8CBFE4C802915DC4F1DB70F83633 * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Void Mono.Security.X509.X501::AppendEntry(System.Text.StringBuilder,Mono.Security.ASN1,System.Boolean)
@@ -34820,65 +34816,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsConsoleDriver__ctor_mFEBFD9144330
 		return;
 	}
 }
-// System.String System.WindowsConsoleDriver::ReadLine()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WindowsConsoleDriver_ReadLine_m27C17D066691683F1F179716C1264A18CD7E0508 (WindowsConsoleDriver_t9BCFD85631535991EF359B3E2AECDBA36ED4F7C2 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	StringBuilder_t * V_0 = NULL;
-	bool V_1 = false;
-	ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88  V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	{
-		StringBuilder_t * L_0 = (StringBuilder_t *)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m5A81DE19E748F748E19FF13FB6FFD2547F9212D9(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		V_1 = (bool)0;
-	}
-
-IL_0008:
-	{
-		ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88  L_1;
-		L_1 = WindowsConsoleDriver_ReadKey_mA57EE05799776F8195C1A3179C3445F39BD3FE72(__this, (bool)0, /*hidden argument*/NULL);
-		V_2 = L_1;
-		Il2CppChar L_2;
-		L_2 = ConsoleKeyInfo_get_KeyChar_m85F4AA380907696C19C1BFFB73FA5DCA0975A82D_inline((ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88 *)(&V_2), /*hidden argument*/NULL);
-		V_1 = (bool)((((int32_t)L_2) == ((int32_t)((int32_t)10)))? 1 : 0);
-		bool L_3 = V_1;
-		if (L_3)
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		StringBuilder_t * L_4 = V_0;
-		Il2CppChar L_5;
-		L_5 = ConsoleKeyInfo_get_KeyChar_m85F4AA380907696C19C1BFFB73FA5DCA0975A82D_inline((ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88 *)(&V_2), /*hidden argument*/NULL);
-		NullCheck(L_4);
-		StringBuilder_t * L_6;
-		L_6 = StringBuilder_Append_m1ADA3C16E40BF253BCDB5F9579B4DBA9C3E5B22E(L_4, L_5, /*hidden argument*/NULL);
-	}
-
-IL_002d:
-	{
-		bool L_7 = V_1;
-		if (!L_7)
-		{
-			goto IL_0008;
-		}
-	}
-	{
-		StringBuilder_t * L_8 = V_0;
-		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_8);
-		return L_9;
-	}
-}
 // System.ConsoleKeyInfo System.WindowsConsoleDriver::ReadKey(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88  WindowsConsoleDriver_ReadKey_mA57EE05799776F8195C1A3179C3445F39BD3FE72 (WindowsConsoleDriver_t9BCFD85631535991EF359B3E2AECDBA36ED4F7C2 * __this, bool ___intercept0, const RuntimeMethod* method)
 {
@@ -46235,13 +46172,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * RegistryKey_get_I
 {
 	{
 		RuntimeObject * L_0 = __this->get_handle_1();
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppChar ConsoleKeyInfo_get_KeyChar_m85F4AA380907696C19C1BFFB73FA5DCA0975A82D_inline (ConsoleKeyInfo_tDA8AC07839288484FCB167A81B4FBA92ECCEAF88 * __this, const RuntimeMethod* method)
-{
-	{
-		Il2CppChar L_0 = __this->get__keyChar_0();
 		return L_0;
 	}
 }

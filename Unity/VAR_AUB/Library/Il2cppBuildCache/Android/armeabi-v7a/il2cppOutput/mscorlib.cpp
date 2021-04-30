@@ -2130,6 +2130,8 @@ public:
 	bool ___ThrowExceptionIfDisposedCancellationTokenSource_0;
 	// System.Boolean System.AppContextSwitches::SetActorAsReferenceWhenCopyingClaimsIdentity
 	bool ___SetActorAsReferenceWhenCopyingClaimsIdentity_1;
+	// System.Boolean System.AppContextSwitches::NoAsyncCurrentCulture
+	bool ___NoAsyncCurrentCulture_2;
 
 public:
 	inline static int32_t get_offset_of_ThrowExceptionIfDisposedCancellationTokenSource_0() { return static_cast<int32_t>(offsetof(AppContextSwitches_tB32AD47AEBBE99D856C1BC9ACFDAB18C959E4A21_StaticFields, ___ThrowExceptionIfDisposedCancellationTokenSource_0)); }
@@ -2146,6 +2148,14 @@ public:
 	inline void set_SetActorAsReferenceWhenCopyingClaimsIdentity_1(bool value)
 	{
 		___SetActorAsReferenceWhenCopyingClaimsIdentity_1 = value;
+	}
+
+	inline static int32_t get_offset_of_NoAsyncCurrentCulture_2() { return static_cast<int32_t>(offsetof(AppContextSwitches_tB32AD47AEBBE99D856C1BC9ACFDAB18C959E4A21_StaticFields, ___NoAsyncCurrentCulture_2)); }
+	inline bool get_NoAsyncCurrentCulture_2() const { return ___NoAsyncCurrentCulture_2; }
+	inline bool* get_address_of_NoAsyncCurrentCulture_2() { return &___NoAsyncCurrentCulture_2; }
+	inline void set_NoAsyncCurrentCulture_2(bool value)
+	{
+		___NoAsyncCurrentCulture_2 = value;
 	}
 };
 

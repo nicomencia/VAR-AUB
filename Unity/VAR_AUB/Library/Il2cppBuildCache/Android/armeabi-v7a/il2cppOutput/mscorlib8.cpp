@@ -24241,7 +24241,7 @@ CATCH_00d9:
 		String_t* L_36 = __this->get_file_6();
 		Exception_t * L_37 = V_6;
 		NullCheck(L_35);
-		VirtActionInvoker3< String_t*, RuntimeObject *, RuntimeObject * >::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object) */, L_35, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C019CDBFD23A922413A8EDCCB32728A3FBB059D)), L_36, L_37);
+		VirtActionInvoker3< String_t*, RuntimeObject *, RuntimeObject * >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object) */, L_35, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C019CDBFD23A922413A8EDCCB32728A3FBB059D)), L_36, L_37);
 		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_38 = __this->get_values_5();
 		NullCheck(L_38);
 		VirtActionInvoker0::Invoke(17 /* System.Void System.Collections.Hashtable::Clear() */, L_38);
@@ -25166,7 +25166,7 @@ CATCH_0050:
 		L_11 = Console_get_Error_m5AEEF41258FBC9771DABB271B89A0F8ED43DDA5E_inline(/*hidden argument*/NULL);
 		Exception_t * L_12 = V_5;
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, RuntimeObject * >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object) */, L_11, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1E2DA4650B0D29BEE069A7FCB1E365C10495F774)), L_12);
+		VirtActionInvoker2< String_t*, RuntimeObject * >::Invoke(21 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object) */, L_11, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1E2DA4650B0D29BEE069A7FCB1E365C10495F774)), L_12);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0065;
 	} // end catch (depth: 1)
@@ -25332,7 +25332,7 @@ CATCH_002e:
 		String_t* L_10 = ___path0;
 		Exception_t * L_11 = V_3;
 		NullCheck(L_9);
-		VirtActionInvoker3< String_t*, RuntimeObject *, RuntimeObject * >::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object) */, L_9, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6618C7227D8667AE9FAF1C37C8A18BE241897BCE)), L_10, L_11);
+		VirtActionInvoker3< String_t*, RuntimeObject *, RuntimeObject * >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object) */, L_9, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6618C7227D8667AE9FAF1C37C8A18BE241897BCE)), L_10, L_11);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0042;
 	} // end catch (depth: 1)
