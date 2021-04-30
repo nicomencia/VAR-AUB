@@ -27001,13 +27001,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullTextWriter_WriteLine_mEAA56AF2FEAE33
 		return;
 	}
 }
-// System.Void System.IO.TextWriter/NullTextWriter::WriteLine(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullTextWriter_WriteLine_m1DC37463767A23CC29DC3EBEE707BFA5C62997DA (NullTextWriter_t1D00E99220711EA2E249B67A50372CED994A125F * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	{
-		return;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -27208,17 +27201,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncTextWriter_WriteLine_mD2640CB20F1049
 		return;
 	}
 }
-// System.Void System.IO.TextWriter/SyncTextWriter::WriteLine(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncTextWriter_WriteLine_mDE4F75E908ABCB110753702773113557E6CCF465 (SyncTextWriter_t4B1FF6119ABECE598E0666C85337FA3F11FF785D * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	{
-		TextWriter_t4CB195237F3B6CADD850FBC3604A049C7C564643 * L_0 = __this->get__out_11();
-		RuntimeObject * L_1 = ___value0;
-		NullCheck(L_0);
-		VirtActionInvoker1< RuntimeObject * >::Invoke(21 /* System.Void System.IO.TextWriter::WriteLine(System.Object) */, L_0, L_1);
-		return;
-	}
-}
 // System.Void System.IO.TextWriter/SyncTextWriter::WriteLine(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncTextWriter_WriteLine_m72409BAF6C86FCD80EE66F84C3A0D993093D97F9 (SyncTextWriter_t4B1FF6119ABECE598E0666C85337FA3F11FF785D * __this, String_t* ___format0, RuntimeObject * ___arg01, const RuntimeMethod* method)
 {
@@ -27227,7 +27209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncTextWriter_WriteLine_m72409BAF6C86FC
 		String_t* L_1 = ___format0;
 		RuntimeObject * L_2 = ___arg01;
 		NullCheck(L_0);
-		VirtActionInvoker2< String_t*, RuntimeObject * >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object) */, L_0, L_1, L_2);
+		VirtActionInvoker2< String_t*, RuntimeObject * >::Invoke(21 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object) */, L_0, L_1, L_2);
 		return;
 	}
 }
@@ -27240,7 +27222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncTextWriter_WriteLine_m43C0A333EE3D12
 		RuntimeObject * L_2 = ___arg01;
 		RuntimeObject * L_3 = ___arg12;
 		NullCheck(L_0);
-		VirtActionInvoker3< String_t*, RuntimeObject *, RuntimeObject * >::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object) */, L_0, L_1, L_2, L_3);
+		VirtActionInvoker3< String_t*, RuntimeObject *, RuntimeObject * >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object) */, L_0, L_1, L_2, L_3);
 		return;
 	}
 }

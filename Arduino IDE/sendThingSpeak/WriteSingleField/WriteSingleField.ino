@@ -21,10 +21,14 @@
   
   Copyright 2020, The MathWorks, Inc.
 */
-
+#include <Arduino.h>
+#include <OneWire.h>
 #include <WiFiNINA.h>
 #include "secrets.h"
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
+
+#define DIGITAL_PIN_RAIN 6
+#define ANALOG_PIN_RAIN A2
 
 char ssid[] = SECRET_SSID;    //  your network SSID (name) 
 char pass[] = SECRET_PASS;   // your network password
@@ -34,8 +38,19 @@ WiFiClient  client;
 unsigned long myChannelNumber = SECRET_CH_ID;
 const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
 
+int lightPin = A1;
+int temperaturePin = A2;
+OneWire onewire(2);
+
+uint16_t rainVal;
+boolean isRaining = false;
+String raining;
+int highRaining;
+
 void setup() {
   Serial.begin(115200);  // Initialize serial
+
+  pinMode(DIGITAL_PIN_RAIN, INPUT);
   
   // check for the WiFi module:
   if (WiFi.status() == WL_NO_MODULE) {
@@ -52,6 +67,47 @@ void setup() {
   ThingSpeak.begin(client);  //Initialize ThingSpeak
 }
 
+bool sensor_read(float *result)
+{
+  uint8_t data[12];
+  int i;
+
+  // retornar una lectura invalida si falla la comunicacion con el sensor
+  *result = -100.0;
+
+  // enviar comando de iniciar la conversion de temperatura
+  // primero generamos pulso de reset
+  onewire.reset();
+  // enviar el comando skip ROM que selecciona todos los dispositivos en el bus
+  onewire.skip();
+  // enviar el comando de comienzo de conversion A/D
+  onewire.write(0x44);
+
+  // esperar el termino de conversion AD en el sensor
+  delay(1000);
+
+  // prestamos atención al pulso de presencia al generar el pulso de reset
+  if (!onewire.reset())
+    return false;
+  // enviar el comando skip ROM que selecciona todos los dispositivos en el bus
+  onewire.skip();
+  // enviar comando de lectura de scratchpad
+  onewire.write(0xBE);
+
+  // comenzar lectura de datos
+  for (i = 0; i < 9; i++)
+    data[i] = onewire.read();
+
+  // alinear los datos recibidos
+  int16_t temp = (((int16_t)data[1]) << 11) | (((int16_t)data[0]) << 3);
+
+  // convertir a grados centigrados
+  *result = (float)temp * 0.0078125;
+
+  // lectura satisfactoria
+  return true;
+}
+
 void loop() {
 
   // Connect or reconnect to WiFi
@@ -66,13 +122,55 @@ void loop() {
     Serial.println("\nConnected.");
   }
   // Get data from sensors
+
+  // Soil moisture
   int soil_moisture = analogRead(A0);
-  Serial.println(soil_moisture);
   int moisture = map(soil_moisture, 675, 1023, 100, 0);
+  Serial.println(moisture);
+
+  // Light
+  int light_reading = analogRead(lightPin);
+  int light = map(light_reading, 1023, 50, 100, 0);
+  Serial.println(light);
+
+  // Temperature
+  float temperature;
+  if (sensor_read(&temperature))
+  {
+    Serial.print(F("OK, Temperatura: "));
+    Serial.println(temperature);
+  }
+  else
+  {
+    Serial.println(F("Fallo de comunicacion con DS18B20"));
+  }
+
+  //Rain sensor
+  rainVal = analogRead(ANALOG_PIN_RAIN);
+  isRaining = digitalRead(DIGITAL_PIN_RAIN);
+  if (isRaining) {
+    raining = "No";
+    highRaining = 0;
+  }
+  else {
+    raining = "Yes";
+    highRaining = 1;
+  }
+  rainVal = map(rainVal, 0, 1023, 100, 0);
+  Serial.print("Raining: ");
+  Serial.println(raining);
+  Serial.print("Moisture: ");
+  Serial.print(rainVal);
+  Serial.println("%\n");
   
   // Write to ThingSpeak. There are up to 8 fields in a channel, allowing you to store up to 8 different
   // pieces of information in a channel.  Here, we write to field 1.
-  int x = ThingSpeak.writeField(myChannelNumber, 1, moisture, myWriteAPIKey);
+  ThingSpeak.setField(1, moisture);
+  ThingSpeak.setField(2, light);
+  ThingSpeak.setField(3, temperature);
+  ThingSpeak.setField(4, rainVal);
+  ThingSpeak.setField(5, highRaining);
+  int x = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
   if(x == 200){
     Serial.println("Channel update successful.");
   }
