@@ -9,6 +9,7 @@ TagManager:
   - temperatureIndicator
   - lightIndicator
   - isHighlyRaining
+  - editRainMoisture
   layers:
   - Default
   - TransparentFX

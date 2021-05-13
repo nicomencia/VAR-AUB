@@ -600,6 +600,8 @@ struct XRGeneralSettings_t32A12852D8662239F55902E9FD6A299201C04042;
 struct XRLoader_tE37B92C6B9CDD944DDF7AFF5704E9EB342D62F6B;
 // UnityEngine.XR.Management.XRManagerSettings
 struct XRManagerSettings_t8F274E413BAFFBB547DAD1B7E50EDD9D7B16E19F;
+// editButton
+struct editButton_t961C6D8687AEFFAD9320955F3E79EAF72A80D987;
 // sensorsData
 struct sensorsData_t2D1C701B0C68D5214A2DDDD3E73595BF7EB1A3E2;
 // UnityEngine.AudioClip/PCMReaderCallback
@@ -17117,6 +17119,15 @@ public:
 	{
 		___CurveScale_8 = value;
 	}
+};
+
+
+// editButton
+struct  editButton_t961C6D8687AEFFAD9320955F3E79EAF72A80D987  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
 };
 
 
@@ -38794,6 +38805,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_m62299DFDB70402726
 		__this->set_SpeedMultiplier_7((1.0f));
 		// public float CurveScale = 1.0f;
 		__this->set_CurveScale_8((1.0f));
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void editButton::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void editButton_Start_m81D7A71204D7ED11494DCD19BACC9C6675EDFD45 (editButton_t961C6D8687AEFFAD9320955F3E79EAF72A80D987 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void editButton::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void editButton_Update_m8F051FDFA8FEB17CF134E22A3193DE2F9EF2F934 (editButton_t961C6D8687AEFFAD9320955F3E79EAF72A80D987 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void editButton::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void editButton__ctor_mC38A24A0291E310BA8B7CD3750B086DA12DD4F13 (editButton_t961C6D8687AEFFAD9320955F3E79EAF72A80D987 * __this, const RuntimeMethod* method)
+{
+	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
