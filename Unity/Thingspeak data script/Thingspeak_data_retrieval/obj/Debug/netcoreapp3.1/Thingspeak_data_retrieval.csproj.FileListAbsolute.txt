@@ -1,0 +1,15 @@
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\bin\Debug\netcoreapp3.1\Thingspeak_data_retrieval.exe
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\bin\Debug\netcoreapp3.1\Thingspeak_data_retrieval.deps.json
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\bin\Debug\netcoreapp3.1\Thingspeak_data_retrieval.runtimeconfig.json
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\bin\Debug\netcoreapp3.1\Thingspeak_data_retrieval.runtimeconfig.dev.json
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\bin\Debug\netcoreapp3.1\Thingspeak_data_retrieval.dll
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\bin\Debug\netcoreapp3.1\Thingspeak_data_retrieval.pdb
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.csprojAssemblyReference.cache
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.AssemblyInfoInputs.cache
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.AssemblyInfo.cs
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.csproj.CoreCompileInputs.cache
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.csproj.CopyComplete
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.dll
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.pdb
+C:\Users\nicom\Documents\VAR-AUB\Unity\Thingspeak data script\Thingspeak_data_retrieval\obj\Debug\netcoreapp3.1\Thingspeak_data_retrieval.genruntimeconfig.cache

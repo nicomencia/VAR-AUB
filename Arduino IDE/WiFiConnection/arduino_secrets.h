@@ -1,0 +1,2 @@
+#define SECRET_SSID "KINGKONG_MINI"
+#define SECRET_PASS "Jordan23"
