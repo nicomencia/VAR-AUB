@@ -5,81 +5,21 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637551633079319315
-    m_Hash: 278268825
+      ticks: 637879839136854438
+    m_Hash: 3236076588
   m_LockFileStatus:
     m_FilePath: C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637562285307597138
-    m_Hash: 1591990178
+      ticks: 637879839224790210
+    m_Hash: 3478461526
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.scripting.python@2.1.1-preview.1
-      testable: 0
-      isDirectDependency: 1
-      version: 2.1.1-preview.1
-      source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.scripting.python@2.1.1-preview.1
-      assetPath: Packages/com.unity.scripting.python
-      name: com.unity.scripting.python
-      displayName: Python for Unity
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: An integration of Python for .NET delivered to your project through
-        the Package Manager, Python for Unity provides your Unity project the means
-        to import the Python Runtime Environment as a namespace and execute Python
-        scripts from both inside the Unity editor and built applications.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 2.0.0-preview.6
-        - 2.0.1-preview.2
-        - 2.1.0-preview.1
-        - 2.1.1-preview.1
-        - 4.0.0-exp.5
-        compatible:
-        - 2.0.0-preview.6
-        - 2.0.1-preview.2
-        - 2.1.0-preview.1
-        - 2.1.1-preview.1
-        - 4.0.0-exp.5
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - python
-      - python.net
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637332734440000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.scripting.python.git
-        revision: 5904a73e0064ab5a51a30e9598f3ace8bf691ad8
-        path: 
     - packageId: com.google.xr.cardboard@https://github.com/googlevr/cardboard-xr-plugin.git
       testable: 0
       isDirectDependency: 1
@@ -109,19 +49,19 @@ m_PackageAssets:
         version: 2.1.4
       resolvedDependencies:
       - name: com.unity.xr.management
-        version: 3.2.13
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.modules.vr
+        version: 4.0.1
+      - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
         version: 1.0.0
       - name: com.unity.modules.physics
         version: 1.0.0
       - name: com.unity.modules.xr
         version: 1.0.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.9
       - name: com.unity.subsystemregistration
         version: 1.0.6
       keywords:
@@ -132,13 +72,13 @@ m_PackageAssets:
       - reality
       - xreditorsubsystem
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -151,24 +91,76 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.3.9
+    - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
       isDirectDependency: 1
-      version: 1.3.9
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.collab-proxy@1.15.16
+      testable: 0
+      isDirectDependency: 1
+      version: 1.15.16
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.collab-proxy@1.15.16
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
-      displayName: Unity Collaborate
+      displayName: Version Control
       author:
         name: 
         email: 
         url: 
       category: Editor
       type: 
-      description: Collaborate with your teammates with the official version control
-        system for Unity. Collaborate is a simple way for teams to save, share, and
-        sync your Unity project.
+      description: The Version Control package gives you the ability to use either
+        Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
+        SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
+        about how you can get started for free by visiting plasticscm.com.
       status: 4
       errors: []
       versions:
@@ -190,7 +182,34 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.9
         - 1.5.7
+        - 1.6.0
+        - 1.7.1
+        - 1.8.0
+        - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
+        - 1.14.1
+        - 1.14.4
+        - 1.14.7
+        - 1.14.9
+        - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.15.1
+        - 1.15.4
+        - 1.15.7
+        - 1.15.9
+        - 1.15.12
+        - 1.15.13
+        - 1.15.15
+        - 1.15.16
+        - 1.15.17
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -202,8 +221,9 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.3.9
-        - 1.5.7
+        - 1.15.15
+        - 1.15.16
+        - 1.15.17
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -214,20 +234,29 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.3.9
-      dependencies: []
-      resolvedDependencies: []
+        verified: 1.15.17
+      dependencies:
+      - name: com.unity.services.core
+        version: 1.0.1
+      resolvedDependencies:
+      - name: com.unity.services.core
+        version: 1.0.1
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
       keywords:
-      - vsc
-      - version
-      - control
-      - collab
-      - collaboration
-      - collaborate
-      - teams
-      - team
-      - cloud
       - backup
+      - cloud
+      - collab
+      - collaborate
+      - collaboration
+      - control
+      - plastic
+      - plasticscm
+      - source
+      - team
+      - teams
+      - version
+      - vcs
       registry:
         id: main
         name: 
@@ -240,13 +269,128 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314349270000000
+      datePublishedTicks: 637847776260000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: fa825106f349f996acff22f718845eab46ca2d7c
+        revision: 714a2838c2d55add3d0accf539488f96caa757b2
+        path: 
+    - packageId: com.unity.connect.share@4.2.3
+      testable: 0
+      isDirectDependency: 1
+      version: 4.2.3
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.connect.share@4.2.3
+      assetPath: Packages/com.unity.connect.share
+      name: com.unity.connect.share
+      displayName: WebGL Publisher
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: This tool allows you to make a WebGL build of your current project
+        and upload it to Unity's website, where it can be shared with others.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview
+        - 1.0.1-preview
+        - 1.0.2-preview
+        - 1.0.3-preview
+        - 1.0.4-preview
+        - 1.0.5-preview
+        - 1.0.6-preview.2
+        - 1.0.7-preview
+        - 1.0.8-preview
+        - 1.0.9-preview
+        - 1.0.10-preview
+        - 1.1.0-preview.1
+        - 1.2.0-preview.1
+        - 2.0.1-preview
+        - 2.0.2-preview.3
+        - 2.0.2-preview.4
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 3.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.1.0
+        - 4.1.1
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        compatible:
+        - 1.0.0-preview
+        - 1.0.1-preview
+        - 1.0.2-preview
+        - 1.0.3-preview
+        - 1.0.4-preview
+        - 1.0.5-preview
+        - 1.0.6-preview.2
+        - 1.0.7-preview
+        - 1.0.8-preview
+        - 1.0.9-preview
+        - 1.0.10-preview
+        - 1.1.0-preview.1
+        - 1.2.0-preview.1
+        - 2.0.1-preview
+        - 2.0.2-preview.3
+        - 2.0.2-preview.4
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 3.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.1.0
+        - 4.1.1
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        verified: 
+      dependencies:
+      - name: com.unity.editorcoroutines
+        version: 1.0.0
+      - name: com.unity.settings-manager
+        version: 1.0.2
+      resolvedDependencies:
+      - name: com.unity.editorcoroutines
+        version: 1.0.0
+      - name: com.unity.settings-manager
+        version: 1.0.2
+      keywords:
+      - webgl
+      - share
+      - connect
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637695698090000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git
+        revision: 9a66a825d48494378f81fc94289eddd505df1c40
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -294,6 +438,12 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.0.7
+        - 3.0.9
+        - 3.0.10
+        - 3.0.12
+        - 3.0.13
+        - 3.0.14
         compatible:
         - 1.0.2
         - 1.0.6
@@ -319,13 +469,19 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.0.7
+        - 3.0.9
+        - 3.0.10
+        - 3.0.12
+        - 3.0.13
+        - 3.0.14
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.22
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -353,12 +509,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.7
+    - packageId: com.unity.ide.visualstudio@2.0.15
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 2.0.15
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -387,6 +543,12 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
+        - 2.0.8
+        - 2.0.9
+        - 2.0.11
+        - 2.0.12
+        - 2.0.14
+        - 2.0.15
         compatible:
         - 1.0.2
         - 1.0.3
@@ -400,13 +562,19 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
-        verified: 2.0.7
+        - 2.0.8
+        - 2.0.9
+        - 2.0.11
+        - 2.0.12
+        - 2.0.14
+        - 2.0.15
+        verified: 2.0.15
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.22
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -426,20 +594,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
+      datePublishedTicks: 637841884840000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: dec282022c7a95fada560c36f53da9dd155a142c
+        revision: ca1ece42f5a2c5484ba15a15bb975ccc1f6a1a3c
         path: 
-    - packageId: com.unity.ide.vscode@1.2.3
+    - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
-      version: 1.2.3
+      version: 1.2.5
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -467,6 +635,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
+        - 1.2.5
         compatible:
         - 1.0.2
         - 1.0.3
@@ -479,7 +649,9 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -495,20 +667,298 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637394922300000000
+      datePublishedTicks: 637800255360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
-    - packageId: com.unity.test-framework@1.1.22
+    - packageId: com.unity.postprocessing@2.3.0
       testable: 0
       isDirectDependency: 1
-      version: 1.1.22
+      version: 2.3.0
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.postprocessing@2.3.0
+      assetPath: Packages/com.unity.postprocessing
+      name: com.unity.postprocessing
+      displayName: Post Processing
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.7
+        - 0.1.8
+        - 2.0.0-beta
+        - 2.0.1-beta
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.5-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.0.10-preview
+        - 2.0.11-preview
+        - 2.0.12-preview
+        - 2.0.13-preview
+        - 2.0.14-preview
+        - 2.0.15-preview
+        - 2.0.16-preview
+        - 2.0.17-preview
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.2.1
+        - 2.2.2
+        - 2.3.0
+        - 3.0.1
+        - 3.0.3
+        - 3.1.0
+        - 3.1.1
+        - 3.2.0
+        - 3.2.1
+        - 3.2.2
+        compatible:
+        - 2.3.0
+        - 3.0.1
+        - 3.0.3
+        - 3.1.0
+        - 3.1.1
+        - 3.2.0
+        - 3.2.1
+        - 3.2.2
+        verified: 3.2.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637144563160000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.com:Unity-Technologies/PostProcessing.git
+        revision: e6de985c41f04a5fc7c7227dd67e3e73fac834e7
+        path: 
+    - packageId: com.unity.render-pipelines.universal@10.8.1
+      testable: 0
+      isDirectDependency: 1
+      version: 10.8.1
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.render-pipelines.universal@10.8.1
+      assetPath: Packages/com.unity.render-pipelines.universal
+      name: com.unity.render-pipelines.universal
+      displayName: Universal RP
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Universal Render Pipeline (URP) is a prebuilt Scriptable Render
+        Pipeline, made by Unity. URP provides artist-friendly workflows that let
+        you quickly and easily create optimized graphics across a range of platforms,
+        from mobile to high-end consoles and PCs.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 7.0.0
+        - 7.0.1
+        - 7.1.1
+        - 7.1.2
+        - 7.1.5
+        - 7.1.6
+        - 7.1.7
+        - 7.1.8
+        - 7.2.0
+        - 7.2.1
+        - 7.3.1
+        - 7.4.1
+        - 7.4.2
+        - 7.4.3
+        - 7.5.1
+        - 7.5.2
+        - 7.5.3
+        - 7.6.0
+        - 7.7.0
+        - 7.7.1
+        - 8.0.1
+        - 8.1.0
+        - 8.2.0
+        - 8.3.1
+        - 9.0.0-preview.14
+        - 9.0.0-preview.35
+        - 9.0.0-preview.55
+        - 9.0.0-preview.72
+        - 10.0.0-preview.26
+        - 10.1.0
+        - 10.2.0
+        - 10.2.1
+        - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
+        - 10.5.0
+        - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
+        compatible:
+        - 10.8.1
+        - 10.9.0
+        verified: 10.8.1
+      dependencies:
+      - name: com.unity.mathematics
+        version: 1.1.0
+      - name: com.unity.render-pipelines.core
+        version: 10.8.1
+      - name: com.unity.shadergraph
+        version: 10.8.1
+      resolvedDependencies:
+      - name: com.unity.mathematics
+        version: 1.1.0
+      - name: com.unity.render-pipelines.core
+        version: 10.8.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.shadergraph
+        version: 10.8.1
+      - name: com.unity.searcher
+        version: 4.3.2
+      keywords:
+      - graphics
+      - performance
+      - rendering
+      - mobile
+      - render
+      - pipeline
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637756825800000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: 31a193989d1e4e18ec3dced0f45168f8d2552a9a
+        path: 
+    - packageId: com.unity.scripting.python@2.1.1-preview.1
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.1-preview.1
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.scripting.python@2.1.1-preview.1
+      assetPath: Packages/com.unity.scripting.python
+      name: com.unity.scripting.python
+      displayName: Python for Unity
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: An integration of Python for .NET delivered to your project through
+        the Package Manager, Python for Unity provides your Unity project the means
+        to import the Python Runtime Environment as a namespace and execute Python
+        scripts from both inside the Unity editor and built applications.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0-preview.6
+        - 2.0.1-preview.2
+        - 2.1.0-preview.1
+        - 2.1.1-preview.1
+        - 4.0.0-exp.5
+        - 4.0.0-pre.1
+        - 5.0.0-pre.5
+        compatible:
+        - 2.0.0-preview.6
+        - 2.0.1-preview.2
+        - 2.1.0-preview.1
+        - 2.1.1-preview.1
+        - 4.0.0-exp.5
+        - 4.0.0-pre.1
+        - 5.0.0-pre.5
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - python
+      - python.net
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637332734440000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.scripting.python.git
+        revision: 5904a73e0064ab5a51a30e9598f3ace8bf691ad8
+        path: 
+    - packageId: com.unity.test-framework@1.1.31
+      testable: 0
+      isDirectDependency: 1
+      version: 1.1.31
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -551,10 +1001,20 @@ m_PackageAssets:
         - 1.1.20
         - 1.1.22
         - 1.1.24
+        - 1.1.26
+        - 1.1.27
+        - 1.1.29
+        - 1.1.30
+        - 1.1.31
+        - 2.0.1-exp.1
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
         compatible:
-        - 1.1.22
-        - 1.1.24
-        verified: 1.1.24
+        - 1.1.31
+        - 2.0.1-exp.1
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
+        verified: 1.1.31
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -584,20 +1044,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637469345300000000
+      datePublishedTicks: 637804266210000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: 56c667cbc326a1cbab8dfd7ebc693a1121d0abe1
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
         path: 
-    - packageId: com.unity.textmeshpro@3.0.1
+    - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
-      version: 3.0.1
+      version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -670,6 +1130,7 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.6.0-preview.1
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -691,6 +1152,9 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.5
         - 2.1.6
+        - 2.2.0-preview.1
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -708,12 +1172,15 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 3.2.0-pre.3
+        - 4.0.0-pre.1
         compatible:
-        - 3.0.1
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 3.2.0-pre.3
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -743,20 +1210,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314376320000000
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
+        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
         path: 
-    - packageId: com.unity.timeline@1.4.6
+    - packageId: com.unity.timeline@1.4.8
       testable: 0
       isDirectDependency: 1
-      version: 1.4.6
+      version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -817,6 +1284,7 @@ m_PackageAssets:
         - 1.4.5
         - 1.4.6
         - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -828,11 +1296,23 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.7.0-pre.1
+        - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
         compatible:
-        - 1.4.6
-        - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -844,9 +1324,22 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
-        verified: 1.4.7
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.7.0-pre.1
+        - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
+        verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -883,20 +1376,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637463150940000000
+      datePublishedTicks: 637557616100000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 2fe55e5d14362cc4fdcc886f56dbfe518298e4a5
+        revision: 527e4364e28028f20f04fc51db671eb4bb910a26
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -935,13 +1428,13 @@ m_PackageAssets:
       - Unity UI
       - Canvas
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -959,7 +1452,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -983,13 +1476,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1007,7 +1500,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1031,13 +1524,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1055,7 +1548,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1079,13 +1572,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1103,7 +1596,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1127,13 +1620,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1151,7 +1644,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1175,13 +1668,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1199,7 +1692,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1227,13 +1720,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1251,7 +1744,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1283,13 +1776,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1307,7 +1800,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1332,13 +1825,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1356,7 +1849,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1380,13 +1873,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1404,7 +1897,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1428,13 +1921,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1452,7 +1945,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1476,13 +1969,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1500,7 +1993,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1524,13 +2017,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1548,7 +2041,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1572,13 +2065,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1596,7 +2089,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1624,13 +2117,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1648,7 +2141,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1672,13 +2165,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1696,7 +2189,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1728,13 +2221,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1752,7 +2245,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1780,13 +2273,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1804,7 +2297,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1828,13 +2321,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1852,7 +2345,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1892,13 +2385,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1916,7 +2409,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1940,13 +2433,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -1964,7 +2457,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -1996,13 +2489,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2020,7 +2513,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2044,13 +2537,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2068,7 +2561,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2100,13 +2593,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2124,7 +2617,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2156,13 +2649,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2180,7 +2673,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2212,13 +2705,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2236,7 +2729,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2284,13 +2777,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2308,7 +2801,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2336,13 +2829,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2360,7 +2853,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2396,13 +2889,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2420,7 +2913,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2458,13 +2951,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2482,7 +2975,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2506,13 +2999,13 @@ m_PackageAssets:
       resolvedDependencies: []
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2530,7 +3023,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2566,13 +3059,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2590,7 +3083,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2618,13 +3111,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2642,7 +3135,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2677,13 +3170,13 @@ m_PackageAssets:
         version: 1.0.0
       keywords: []
       registry:
-        id: 
+        id: main
         name: 
-        url: 
+        url: https://packages.unity.com
         scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
       hideInEditor: 1
       entitlements:
         isAllowed: 1
@@ -2723,6 +3216,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -2730,6 +3224,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -2757,12 +3252,625 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
-    - packageId: com.unity.xr.management@3.2.13
+    - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
-      version: 3.2.13
+      version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.xr.management@3.2.13
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.mathematics@1.1.0
+      assetPath: Packages/com.unity.mathematics
+      name: com.unity.mathematics
+      displayName: Mathematics
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Unity's C# SIMD math library providing vector types and math functions
+        with a shader like syntax.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        verified: 1.2.6
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 636984649280000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.com:Unity-Technologies/Unity.Mathematics.git
+        revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
+        path: 
+    - packageId: com.unity.render-pipelines.core@10.8.1
+      testable: 0
+      isDirectDependency: 0
+      version: 10.8.1
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.render-pipelines.core@10.8.1
+      assetPath: Packages/com.unity.render-pipelines.core
+      name: com.unity.render-pipelines.core
+      displayName: Core RP Library
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: SRP Core makes it easier to create or customize a Scriptable Render
+        Pipeline (SRP). SRP Core contains reusable code, including boilerplate code
+        for working with platform-specific graphics APIs, utility functions for common
+        rendering operations, and  shader libraries. The code in SRP Core is use
+        by the High Definition Render Pipeline (HDRP) and Universal Render Pipeline
+        (URP). If you are creating a custom SRP from scratch or customizing a prebuilt
+        SRP, using SRP Core will save you time.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.21
+        - 0.1.27
+        - 0.1.28
+        - 1.0.0-beta
+        - 1.0.1-beta
+        - 1.1.1-preview
+        - 1.1.2-preview
+        - 1.1.4-preview
+        - 1.1.5-preview
+        - 1.1.8-preview
+        - 1.1.10-preview
+        - 1.1.11-preview
+        - 2.0.1-preview
+        - 2.0.3-preview
+        - 2.0.4-preview
+        - 2.0.4-preview.1
+        - 2.0.5-preview
+        - 2.0.6-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 3.0.0-preview
+        - 3.1.0-preview
+        - 3.3.0-preview
+        - 4.0.0-preview
+        - 4.0.1-preview
+        - 4.1.0-preview
+        - 4.2.0-preview
+        - 4.3.0-preview
+        - 4.6.0-preview
+        - 4.8.0-preview
+        - 4.9.0-preview
+        - 4.10.0-preview
+        - 5.0.0-preview
+        - 5.1.0
+        - 5.2.0
+        - 5.2.1
+        - 5.2.2
+        - 5.2.3
+        - 5.3.1
+        - 5.6.1
+        - 5.7.2
+        - 5.8.2
+        - 5.9.0
+        - 5.10.0
+        - 5.13.0
+        - 5.16.1
+        - 6.5.2
+        - 6.5.3
+        - 6.7.1
+        - 6.9.0
+        - 6.9.1
+        - 6.9.2
+        - 7.0.0
+        - 7.0.1
+        - 7.1.1
+        - 7.1.2
+        - 7.1.5
+        - 7.1.6
+        - 7.1.7
+        - 7.1.8
+        - 7.2.0
+        - 7.2.1
+        - 7.3.1
+        - 7.4.1
+        - 7.4.2
+        - 7.4.3
+        - 7.5.1
+        - 7.5.2
+        - 7.5.3
+        - 7.6.0
+        - 7.7.0
+        - 7.7.1
+        - 8.0.1
+        - 8.1.0
+        - 8.2.0
+        - 8.3.1
+        - 9.0.0-preview.13
+        - 9.0.0-preview.35
+        - 9.0.0-preview.38
+        - 9.0.0-preview.60
+        - 9.0.0-preview.77
+        - 10.0.0-preview.30
+        - 10.1.0
+        - 10.2.0
+        - 10.2.1
+        - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
+        - 10.5.0
+        - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
+        compatible:
+        - 10.8.1
+        - 10.9.0
+        verified: 10.8.1
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637756824220000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: 31a193989d1e4e18ec3dced0f45168f8d2552a9a
+        path: 
+    - packageId: com.unity.shadergraph@10.8.1
+      testable: 0
+      isDirectDependency: 0
+      version: 10.8.1
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.shadergraph@10.8.1
+      assetPath: Packages/com.unity.shadergraph
+      name: com.unity.shadergraph
+      displayName: Shader Graph
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Shader Graph package adds a visual Shader editing tool to
+        Unity. You can use this tool to create Shaders in a visual way instead of
+        writing code. Specific render pipelines can implement specific graph features.
+        Currently, both the High Definition Rendering Pipeline and the Universal
+        Rendering Pipeline support Shader Graph.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.8
+        - 0.1.9
+        - 0.1.17
+        - 1.0.0-beta
+        - 1.1.1-preview
+        - 1.1.2-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5-preview
+        - 1.1.6-preview
+        - 1.1.8-preview
+        - 1.1.9-preview
+        - 2.0.1-preview
+        - 2.0.3-preview
+        - 2.0.4-preview
+        - 2.0.4-preview.1
+        - 2.0.5-preview
+        - 2.0.6-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 3.0.0-preview
+        - 3.1.0-preview
+        - 3.3.0-preview
+        - 4.0.0-preview
+        - 4.0.1-preview
+        - 4.1.0-preview
+        - 4.2.0-preview
+        - 4.3.0-preview
+        - 4.6.0-preview
+        - 4.8.0-preview
+        - 4.9.0-preview
+        - 4.10.0-preview
+        - 5.0.0-preview
+        - 5.1.0
+        - 5.2.0
+        - 5.2.1
+        - 5.2.2
+        - 5.2.3
+        - 5.3.1
+        - 5.6.1
+        - 5.7.2
+        - 5.8.2
+        - 5.9.0
+        - 5.10.0
+        - 5.13.0
+        - 5.16.1
+        - 6.5.2
+        - 6.5.3
+        - 6.7.1
+        - 6.9.0
+        - 6.9.1
+        - 6.9.2
+        - 7.0.0
+        - 7.0.1
+        - 7.1.1
+        - 7.1.2
+        - 7.1.5
+        - 7.1.6
+        - 7.1.7
+        - 7.1.8
+        - 7.2.0
+        - 7.2.1
+        - 7.3.1
+        - 7.4.1
+        - 7.4.2
+        - 7.4.3
+        - 7.5.1
+        - 7.5.2
+        - 7.5.3
+        - 7.6.0
+        - 7.7.0
+        - 7.7.1
+        - 8.0.1
+        - 8.1.0
+        - 8.2.0
+        - 8.3.1
+        - 9.0.0-preview.14
+        - 9.0.0-preview.34
+        - 9.0.0-preview.55
+        - 9.0.0-preview.72
+        - 10.0.0-preview.27
+        - 10.1.0
+        - 10.2.0
+        - 10.2.1
+        - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
+        - 10.5.0
+        - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
+        compatible:
+        - 10.8.1
+        - 10.9.0
+        verified: 10.8.1
+      dependencies:
+      - name: com.unity.render-pipelines.core
+        version: 10.8.1
+      - name: com.unity.searcher
+        version: 4.3.2
+      resolvedDependencies:
+      - name: com.unity.render-pipelines.core
+        version: 10.8.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.searcher
+        version: 4.3.2
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637756824360000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: 31a193989d1e4e18ec3dced0f45168f8d2552a9a
+        path: 
+    - packageId: com.unity.editorcoroutines@1.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.0
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+      assetPath: Packages/com.unity.editorcoroutines
+      name: com.unity.editorcoroutines
+      displayName: Editor Coroutines
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The editor coroutines package allows developers to start constructs
+        similar to Unity''s monobehaviour based coroutines within the editor using
+        abitrary objects. '
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        compatible:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - coroutine
+      - coroutines
+      - editor
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637232611380000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+        revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+        path: 
+    - packageId: com.unity.settings-manager@1.0.2
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.2
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.settings-manager@1.0.2
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 2.0.0
+        - 2.0.1
+        compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 2.0.0
+        - 2.0.1
+        verified: 1.0.3
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637187671360000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        revision: e8eedc87ca7850bac0f7b2257db4edb8c300a0f3
+        path: 
+    - packageId: com.unity.services.core@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.services.core@1.0.1
+      assetPath: Packages/com.unity.services.core
+      name: com.unity.services.core
+      displayName: Services Core
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'This package defines common components used by multiple Game
+        Service packages.
+
+        These are standardized and aim to unify the overall
+        experience of working with Game Services packages.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0
+        compatible:
+        - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637604883250000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+        path: 
+    - packageId: com.unity.xr.management@4.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 4.0.1
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.xr.management@4.0.1
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -2772,8 +3880,8 @@ m_PackageAssets:
         url: 
       category: 
       type: 
-      description: Package to provide for simple management of XR plug-ins. Provides
-        help and management for loading, initialization, settings, and build support
+      description: Package that provides simple management of XR plug-ins. Manages
+        and offers help with loading, initialization, settings, and build support
         for XR plug-ins.
       status: 4
       errors: []
@@ -2820,35 +3928,50 @@ m_PackageAssets:
         - 4.0.0-pre.3
         - 4.0.1
         - 4.0.3
+        - 4.0.5
+        - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
         compatible:
-        - 3.2.13
-        - 3.2.15
-        - 3.2.16
-        - 3.2.17
-        - 4.0.0-exp.2
-        - 4.0.0-pre.2
-        - 4.0.0-pre.3
         - 4.0.1
         - 4.0.3
-        verified: 4.0.3
+        - 4.0.5
+        - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        verified: 4.2.1
       dependencies:
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.2
+        version: 2.1.7
       - name: com.unity.subsystemregistration
         version: 1.0.6
       resolvedDependencies:
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.modules.vr
+      - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
         version: 1.0.0
       - name: com.unity.modules.physics
         version: 1.0.0
       - name: com.unity.modules.xr
         version: 1.0.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.9
       - name: com.unity.subsystemregistration
         version: 1.0.6
       keywords:
@@ -2871,20 +3994,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637293838190000000
+      datePublishedTicks: 637486666900000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-        revision: 3a3e4cb8f3b8a580f8bbf417ef9726adf94b1b97
+        revision: 7be7864c531ec05f0ba18503a2bb44684061e071
         path: 
-    - packageId: com.unity.xr.legacyinputhelpers@2.1.7
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.9
       testable: 0
       isDirectDependency: 0
-      version: 2.1.7
+      version: 2.1.9
       source: 1
-      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -2926,9 +4049,11 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.6
         - 2.1.7
+        - 2.1.8
+        - 2.1.9
         compatible:
-        - 2.1.7
-        verified: 2.1.7
+        - 2.1.9
+        verified: 2.1.9
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0
@@ -2963,13 +4088,93 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637434003470000000
+      datePublishedTicks: 637812095140000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-        revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
+        revision: 8e4581a11c14b64d41aabb67f51b0d8a0c75f5c4
+        path: 
+    - packageId: com.unity.searcher@4.3.2
+      testable: 0
+      isDirectDependency: 0
+      version: 4.3.2
+      source: 1
+      resolvedPath: C:\Users\nicom\Documents\VAR-AUB\Unity\VAR_AUB\Library\PackageCache\com.unity.searcher@4.3.2
+      assetPath: Packages/com.unity.searcher
+      name: com.unity.searcher
+      displayName: Searcher
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: General search window for use in the Editor. First target use
+        is for GraphView node search.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
+        - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
+        compatible:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
+        - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
+        verified: 4.3.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - search
+      - searcher
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637509898070000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+        revision: 798bfb84c8f09f7788a3a88c3c16d72c50451530
         path: 
     - packageId: com.unity.subsystemregistration@1.0.6
       testable: 0
@@ -2997,10 +4202,12 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 1.1.0
+        - 1.1.1
         compatible:
         - 1.0.6
         - 1.1.0
-        verified: 1.1.0
+        - 1.1.1
+        verified: 1.1.1
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3030,4 +4237,4 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: C:/Users/nicom/Documents/VAR-AUB/Unity/VAR_AUB/Packages
-m_EditorVersion: 2020.3.0f1 (c7b5465681fb)
+m_EditorVersion: 2020.3.33f1 (915a7af8b0d5)

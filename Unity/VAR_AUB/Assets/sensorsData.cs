@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using System.Net;
 using System.IO;
 using Newtonsoft.Json.Linq;
+using TMPro;
 
 public class sensorsData : MonoBehaviour
 {
     GameObject soilMoistureIndicator;
     GameObject lightIndicator;
-    GameObject temperatureIndicator;
-    GameObject rainMoistureIndicator;
+
+    GameObject temperatureValueText;
+    GameObject temperatureUnitsText;
+
+    GameObject rainIndicator;
     GameObject isHighlyRaining;
     // Start is called before the first frame update
     void Start()
@@ -35,19 +40,26 @@ public class sensorsData : MonoBehaviour
         customCulture.NumberFormat.NumberDecimalSeparator = ".";
         System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
 
-        float temperaturePercentage = float.Parse(o["feeds"][0]["field3"].ToString());
-        temperatureIndicator = GameObject.FindWithTag("temperatureIndicator");
-        temperatureIndicator.transform.position += new Vector3(0, temperaturePercentage/20, 0);
+        float temperatureValue = float.Parse(o["feeds"][0]["field3"].ToString());
+        temperatureValueText = GameObject.FindWithTag("tempValue");
+        temperatureValueText.GetComponent<Text>().text = temperatureValue.ToString("#.0");
+        temperatureUnitsText = GameObject.FindWithTag("tempUnits");
+
+        if (temperatureValue < 10){
+            ChangeTemperatureTextColor(Color.cyan);
+        } else if (temperatureValue > 18){
+            ChangeTemperatureTextColor(Color.red);
+        }
 
         // Rain
-        int rainMoisturePercentage = int.Parse(o["feeds"][0]["field4"].ToString());
-        rainMoistureIndicator = GameObject.FindWithTag("rainMoistureIndicator");
-        rainMoistureIndicator.transform.position += new Vector3(0, (float) rainMoisturePercentage/50, 0);
+        int rainPercentage = int.Parse(o["feeds"][0]["field4"].ToString());
+        rainIndicator = GameObject.FindWithTag("rainIndicator");
+        rainIndicator.transform.position += new Vector3(0, (float) rainPercentage/50, 0);
 
         // Is high rain
-        /*int isRainingPercentage = int.Parse(o["feeds"][0]["field5"].ToString());
+        int isRaining = int.Parse(o["feeds"][0]["field5"].ToString());
         isHighlyRaining = GameObject.FindWithTag("isHighlyRaining");
-        if (isRainingPercentage == 1)
+        if (isRaining == 1)
         {
             isHighlyRaining.SetActive(false);
         }
@@ -55,13 +67,19 @@ public class sensorsData : MonoBehaviour
         {
             isHighlyRaining.SetActive(true);
         }
-        */
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void ChangeTemperatureTextColor(Color color)
+    {
+        temperatureValueText.GetComponent<Text>().color = color;
+        temperatureUnitsText.GetComponent<Text>().color = color;
     }
 
 }

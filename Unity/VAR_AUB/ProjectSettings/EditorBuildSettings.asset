@@ -5,8 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes/HelloCardboard.unity
     guid: 145a2a45d7bc746b19cb68410368bf96
+  - enabled: 0
+    path: Assets/Plant.unity
+    guid: b1400fe70e3a29e4c860dd11128b315a
+  - enabled: 1
+    path: Assets/PlantScene.unity
+    guid: c000efcf54caf9546a3a4372da9aadcd
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9f76a7b05aba5854596744d4a4c6c903, type: 2}

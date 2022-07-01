@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - soilMoistureIndicator
-  - rainMoistureIndicator
   - temperatureIndicator
   - lightIndicator
   - isHighlyRaining
   - editRainMoisture
+  - tempValue
+  - tempUnits
+  - rainIndicator
   layers:
   - Default
   - TransparentFX
